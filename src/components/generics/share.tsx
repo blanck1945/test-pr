@@ -11,7 +11,7 @@ const Share: React.FC = () => {
     const shareData = {
       title: 'Tap | Ruleta',
       text: 'Tirá la ruleta de premios en Moron',
-      url: 'http://ruletap.auntap.com/?utm_source=Compartir&utm_medium=Compartir&utm_campaign=Ruleweb_compartir',
+      url: 'https://test-pr.vercel.app/?utm_source=Compartir&utm_medium=Compartir&utm_campaign=Ruleweb_compartir',
     };
     try {
       await navigator.share(shareData);
